@@ -1,0 +1,101 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Styling the container */
+  .container {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+   
+  }
+  
+  /* Heading styles */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Task input field */
+  #taskInput {
+    width: calc(100% - 100px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px; 
+  }
+  
+  /* Add Task button */
+  #addTaskBtn {
+    padding:  10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font: size 12px;
+    margin-left: 0px;
+    
+  }
+  
+  #addTaskBtn:hover {
+    background-color: black;
+  }
+  
+  /* Styles for the task list container */
+  #taskList {
+    margin-top: 20px;
+  }
+  
+  /* Individual task container */
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Task text */
+  #work {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Delete button */
+  .del {
+    background-color: #dc3545;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect on delete button */
+  .del:hover {
+    background-color: #c82333;
+  }
+  
+  /* Style for the trash icon */
+  .fa-trash {
+    pointer-events: none; /* Disable click events on the icon */
+  }
+  

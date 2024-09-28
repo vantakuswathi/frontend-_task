@@ -1,0 +1,98 @@
+/* Basic styling for the pricing table */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pricing-table {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* Styling for individual plans */
+.plan {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+  max-width: 300px;
+  transition: transform 0.3s;
+}
+
+.plan h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.plan .description {
+  font-style: italic;
+  color: #777;
+}
+
+.plan .price {
+  font-size: 2em;
+  margin: 20px 0;
+  color: #333;
+}
+
+.plan .features {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.plan .features li {
+  margin: 10px 0;
+  color: #555;
+}
+
+/* Call-to-action button */
+.cta {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta:hover {
+  background-color: #0056b3;
+}
+
+
+.popular .price {
+  color: blue;
+}
+
+/* Hover effect for the plan cards */
+.plan:hover {
+  transform: scale(1.03);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .pricing-table {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan {
+    max-width: 100%;
+  }
+}
