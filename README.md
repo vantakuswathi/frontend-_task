@@ -11,8 +11,8 @@ Click the "Click Me!" button under the services section to display an alert.
 
 -----**css Task2**
 This project demonstrates the creation of a responsive pricing table using HTML and CSS. The table includes three pricing plans (Basic, Standard, and Premium), each featuring a list of benefits and a call-to-action button. The table is fully responsive and adapts seamlessly across different screen sizes, ensuring a good user experience on both desktop and mobile devices. 
-css task2.html: The HTML file contains the structure of the pricing table, with dummy content for each plan.
-styles.css: The CSS file handles the styling and responsiveness of the pricing table.
+**css task2.html**: The HTML file contains the structure of the pricing table, with dummy content for each plan.
+**styles.css:** The CSS file handles the styling and responsiveness of the pricing table.
 in that i tried but i didnot get the responsive on mobile....here i providedthe screen recording video of this
 https://github.com/user-attachments/assets/11b09274-b243-45bf-8ddb-7bb58fd760fb
 
@@ -26,5 +26,9 @@ This is a simple interactive To-Do List application built using **HTML**, **CSS*
 -  Type the task you want to add in the input field.
 2. Click the "Add Task" button to add the task to the list.
 3. To delete a task, click the trash icon button next to the task.
+  ** file**
+   **jstask3.html**
+   **style.css**
+   **script.js**
    
 https://github.com/user-attachments/assets/a5b9a5d4-44b4-466d-b77f-dbe1e9709c5e
